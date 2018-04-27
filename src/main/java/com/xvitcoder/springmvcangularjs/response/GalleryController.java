@@ -37,11 +37,7 @@ public class GalleryController {
 				pojo.setImage((String) jobj.get("image"));
 				pojo.setThumb((String) jobj.get("thumb"));
 				pojo.setTags((List) jobj.get("tags"));
-				pojo.setName((String) jobj.get("name"));
-				pojo.setType((String) jobj.get("type"));
-				pojo.setTools((String) jobj.get("tools"));
-				pojo.setCaption((String) jobj.get("caption"));
-
+				
 				l.add(pojo);
 
 			}

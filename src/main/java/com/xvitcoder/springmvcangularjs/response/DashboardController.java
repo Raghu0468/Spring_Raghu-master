@@ -37,11 +37,7 @@ public class DashboardController {
            
             DashboardPojo pojo = new DashboardPojo();
 				pojo.setDetails((List) jobj.get("details"));
-            pojo.setColor((String) jobj.get("color"));
-            pojo.setIcon((String) jobj.get("icon"));
-            pojo.setNumber((String) jobj.get("number"));
-            pojo.setContent((String) jobj.get("content"));
-            pojo.setStatsuccess((String) jobj.get("statsuccess"));
+          
              
             l.add(pojo);
 
